@@ -16,8 +16,9 @@ export async function taxSimulation(
   ctx: Context,
   next: () => Promise<unknown>
 ) {
+  console.log('taxSimulation')
   const body: CheckoutRequest = await json(ctx.req)
-
+  console.log('body', body)
   const {
     vtex: { workspace, account },
     clients: { taxProvider },

@@ -1,5 +1,5 @@
 // This is an uuid that is necessary for the checkout API
-const AUTHORIZATION_CODE = 'YOUR_AUTHORIZATION_CODE'
+const AUTHORIZATION_CODE = '123GERMAN123'
 
 const PROVIDER_NAME = 'YOUR_PROVIDER_NAME'
 

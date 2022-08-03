@@ -9,7 +9,7 @@ export async function validateCheckoutAuthorization(
   const {
     headers: { authorization },
   } = ctx
-
+  console.log('authorization', authorization)
   if (!authorization || authorization !== AUTHORIZATION_CODE) {
     throw new ForbiddenError('Authorization token does not match')
   }
